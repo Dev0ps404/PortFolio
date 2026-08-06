@@ -1,50 +1,70 @@
-# Devansh Agarwal – Portfolio
+<div align="center">
 
-A personal portfolio built to showcase my projects, technical skills, internship experience, and journey as a Full Stack Developer.
+# 🚀 Devansh Agarwal Portfolio
 
-The website focuses on performance, smooth interactions, modern UI, and responsive design while keeping the overall experience clean and minimal.
+### Full Stack Developer • MERN Stack • AI Enthusiast
 
----
+Modern developer portfolio built with React, TypeScript, Vite, GSAP, Framer Motion and Spline.
 
-## Tech Stack
+<br/>
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Framer Motion
-- GSAP
-- Spline
-- React Icons
+<img src="./public/preview.png" width="100%" />
 
----
+<br/>
 
-## Features
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit-00C2FF?style=for-the-badge)](https://your-portfolio.vercel.app)
+[![Resume](https://img.shields.io/badge/📄_Resume-Download-7B61FF?style=for-the-badge)](./public/Devansh_Agarwal_Resume.pdf)
+[![GitHub](https://img.shields.io/badge/GitHub-Dev0ps404-black?style=for-the-badge&logo=github)](https://github.com/Dev0ps404)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Devansh_Agarwal-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/devansh-code)
 
-- Responsive design
-- Modern dark UI
-- Smooth page transitions
-- Interactive project showcase
-- Animated experience timeline
-- Skills section
-- Contact section
-- Resume download
-- Optimized for desktop and mobile
+</div>
 
 ---
 
-## Project Structure
+# ✨ Overview
+
+This portfolio represents my work as a Full Stack Developer and showcases real-world projects, internship experience, technical skills, and interactive UI experiments.
+
+The focus of this project is performance, smooth user experience, responsive design, and modern frontend development.
+
+---
+
+# 🛠 Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,nodejs,express,mongodb,git,github,vscode" />
+
+</p>
+
+---
+
+# 🚀 Features
+
+- 🎨 Modern Dark UI
+- ⚡ Smooth GSAP Animations
+- 🎭 Framer Motion Transitions
+- 🧩 Interactive Spline 3D
+- 📱 Fully Responsive
+- 📄 Resume Download
+- 💼 Premium Project Showcase
+- 📬 Contact Section
+- 🚀 Optimized Performance
+
+---
+
+# 📂 Project Structure
 
 ```text
 public/
 src/
-├── assets/
-├── components/
-├── data/
-├── hooks/
-├── utils/
-├── App.tsx
-└── main.tsx
+ ├── assets/
+ ├── components/
+ ├── data/
+ ├── hooks/
+ ├── utils/
+ ├── App.tsx
+ └── main.tsx
 
 package.json
 vite.config.ts
@@ -52,77 +72,67 @@ vite.config.ts
 
 ---
 
-## Getting Started
-
-Clone the repository
+# ⚙️ Installation
 
 ```bash
-git clone <repository-url>
-```
+git clone https://github.com/Dev0ps404/Portfolio.git
 
-Move into the project directory
+cd Portfolio
 
-```bash
-cd PORT
-```
-
-Install dependencies
-
-```bash
 npm install
-```
 
-Start the development server
-
-```bash
 npm run dev
 ```
 
-Create a production build
+---
+
+# 🏗 Production Build
 
 ```bash
 npm run build
 ```
 
-Preview the production build
+---
 
-```bash
-npm run preview
-```
+# 🌐 Deployment
+
+| Platform | Status |
+|----------|--------|
+| Vercel | ✅ |
+| Render | Not Required |
 
 ---
 
-## Deployment
+# 📸 Preview
 
-Frontend is deployed on **Vercel**.
-
-Static assets such as the resume are served from the `public` directory.
+<img src="./public/preview2.png"/>
 
 ---
 
-## Highlights
+# 📬 Connect
 
-- Built using React + TypeScript + Vite
-- Reusable component-based architecture
-- Smooth animations with Framer Motion and GSAP
-- Fully responsive layout
-- Optimized for performance
-- Clean folder structure
+<p align="center">
 
----
+<a href="https://github.com/Dev0ps404">
+<img src="https://skillicons.dev/icons?i=github"/>
+</a>
 
-## Contact
+<a href="https://linkedin.com/in/devansh-code">
+<img src="https://skillicons.dev/icons?i=linkedin"/>
+</a>
 
-**Devansh Agarwal**
+<a href="mailto:devanshaadhya@gmail.com">
+📧 Email
+</a>
 
-Email: devanshaadhya@gmail.com
-
-LinkedIn:
-https://www.linkedin.com/in/devansh-code
-
-GitHub:
-https://github.com/Dev0ps404
+</p>
 
 ---
 
-If you find something that can be improved, feel free to open an issue or reach out.
+<div align="center">
+
+### Thanks for visiting ❤️
+
+⭐ If you like this portfolio, consider giving it a star.
+
+</div>
