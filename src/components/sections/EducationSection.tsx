@@ -15,7 +15,7 @@ export const EducationSection: React.FC = () => {
         subtitle="Rigorous academic training in Computer Science, Distributed Systems, and Web Graphics Architecture."
       />
 
-      <div className="relative border-l border-[#1A1A1A] ml-6 md:ml-48 space-y-12 pl-8 md:pl-14">
+      <div className="relative border-l border-[#1A1A1A] ml-2 sm:ml-6 md:ml-48 space-y-8 sm:space-y-12 pl-6 sm:pl-8 md:pl-14">
         {EDUCATION_DATA.map((edu, index) => (
           <motion.div
             key={edu.id}

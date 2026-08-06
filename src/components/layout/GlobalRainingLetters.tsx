@@ -67,7 +67,7 @@ export const GlobalRainingLetters: React.FC = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 w-full h-full pointer-events-none z-[1] opacity-50 mix-blend-screen"
+      className="hidden md:block fixed inset-0 w-full h-full pointer-events-none z-[1] opacity-50 mix-blend-screen"
     />
   );
 };

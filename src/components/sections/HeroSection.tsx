@@ -78,7 +78,7 @@ export const HeroSection: React.FC = () => {
             </motion.div>
 
             {/* Name Heading with Sequential Character Reveal */}
-            <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-[96px] font-display font-extrabold tracking-tight text-white leading-[1.02]">
+            <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-[96px] font-display font-extrabold tracking-tight text-white leading-[1.05] break-words">
               <CharacterReveal
                 text="Devansh"
                 as="span"
@@ -99,7 +99,7 @@ export const HeroSection: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.35 }}
-              className="text-xl sm:text-2xl md:text-3xl font-display font-semibold text-cyan-400 mt-4 tracking-wide"
+              className="text-lg sm:text-2xl md:text-3xl font-display font-semibold text-cyan-400 mt-4 tracking-wide"
             >
               {PERSONAL_INFO.title}
             </motion.h2>
@@ -109,7 +109,7 @@ export const HeroSection: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="mt-6 text-slate-400 text-base md:text-lg font-normal leading-relaxed max-w-xl"
+              className="mt-4 sm:mt-6 text-slate-400 text-sm sm:text-base md:text-lg font-normal leading-relaxed max-w-xl"
             >
               {PERSONAL_INFO.summaryParagraph1}
             </motion.p>
@@ -119,16 +119,16 @@ export const HeroSection: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.65 }}
-              className="flex flex-wrap items-center gap-4 mt-10"
+              className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mt-8 sm:mt-10 w-full sm:w-auto"
             >
               {/* First Button: View Resume */}
-              <MagneticButton onClick={() => setIsResumeOpen(true)} variant="monochrome" className="px-6 py-2.5 min-w-[190px] justify-center text-sm font-bold text-cyan-400">
+              <MagneticButton onClick={() => setIsResumeOpen(true)} variant="monochrome" className="w-full sm:w-auto px-6 py-3 min-w-0 sm:min-w-[190px] justify-center text-sm font-bold text-cyan-400">
                 <FileText className="w-4 h-4 mr-2 text-cyan-400" />
                 <span className="text-cyan-400 font-bold text-sm">View Resume</span>
               </MagneticButton>
 
               {/* Second Button: Download Resume */}
-              <MagneticButton href={PERSONAL_INFO.resumeUrl} download="Devansh_Agarwal_Resume.pdf" variant="monochrome" className="px-6 py-2.5 min-w-[220px] justify-center text-sm font-bold text-cyan-400">
+              <MagneticButton href={PERSONAL_INFO.resumeUrl} download="Devansh_Agarwal_Resume.pdf" variant="monochrome" className="w-full sm:w-auto px-6 py-3 min-w-0 sm:min-w-[220px] justify-center text-sm font-bold text-cyan-400">
                 <Download className="w-4 h-4 mr-2 text-cyan-400" />
                 <span className="text-cyan-400 font-bold text-sm">Download Resume</span>
               </MagneticButton>

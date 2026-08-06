@@ -25,19 +25,25 @@ export const SummarySection: React.FC = () => {
             </h2>
           </div>
 
-          {/* Premium Framed 3D Robot Display — Apple / Linear Balanced Cinematic Aesthetic */}
-          <div className="relative w-full h-[420px] rounded-[24px] border border-[#334155]/60 bg-[#07090C] overflow-hidden shadow-[0_25px_60px_rgba(0,0,0,0.9)] group">
+          {/* Premium Framed 3D Display — Mobile Optimized (Zero Lag) / Desktop Interactive Spline */}
+          <div className="relative w-full h-[320px] sm:h-[420px] rounded-[24px] border border-[#334155]/60 bg-[#07090C] overflow-hidden shadow-[0_25px_60px_rgba(0,0,0,0.9)] group">
             {/* Soft Blue & Teal Radial Gradient Separation Backdrop */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(56,189,248,0.18)_0%,_rgba(79,209,197,0.1)_45%,_rgba(15,23,42,0.45)_70%,_rgba(6,8,12,0.98)_95%)] pointer-events-none z-10" />
 
             {/* Soft Edge Vignette Overlay */}
             <div className="absolute inset-0 shadow-[inset_0_0_80px_rgba(0,0,0,0.7)] pointer-events-none z-20" />
 
-            {/* Softer Muted Teal Color Tint Layer (#4FD1C5) */}
-            <div className="absolute inset-0 bg-[#4FD1C5] mix-blend-color pointer-events-none z-30 opacity-35" />
+            {/* Mobile Fallback Card (Zero Lag GPU rendering) */}
+            <div className="md:hidden absolute inset-0 z-30 flex flex-col items-center justify-center p-6 text-center space-y-3">
+              <div className="w-20 h-20 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 shadow-[0_0_30px_rgba(56,189,248,0.25)]">
+                <span className="text-3xl font-mono font-bold">&lt;/&gt;</span>
+              </div>
+              <h4 className="text-lg font-bold font-display text-white">Full Stack Engineering</h4>
+              <p className="text-xs text-cyan-300 font-mono">React.js • Node.js • Express • MongoDB • Socket.IO</p>
+            </div>
 
-            {/* Balanced Cinematic Color Grading (Brightness +18%, Exposure Boost, Subtle Teal Rim Bloom 0.18) */}
-            <div className="w-full h-full [filter:hue-rotate(-55deg)_brightness(1.12)_contrast(1.10)_saturate(1.05)_drop-shadow(0_0_15px_rgba(79,209,197,0.18))]">
+            {/* Desktop WebGL Spline Scene */}
+            <div className="hidden md:block w-full h-full [filter:hue-rotate(-55deg)_brightness(1.12)_contrast(1.10)_saturate(1.05)_drop-shadow(0_0_15px_rgba(79,209,197,0.18))]">
               <InteractiveRobotSpline
                 scene={ROBOT_SCENE_URL}
                 className="w-full h-full"

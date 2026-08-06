@@ -5,6 +5,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export const useLenis = () => {
   useEffect(() => {
+    // Skip Lenis on mobile/touch devices to enable hardware-accelerated 120Hz/60Hz native momentum scrolling
+    const isTouchDevice = window.matchMedia('(pointer: coarse)').matches || 'ontouchstart' in window;
+    if (isTouchDevice) return;
+
     const lenis = new Lenis({
       lerp: 0.08,
       duration: 1.2,
@@ -13,7 +17,7 @@ export const useLenis = () => {
       gestureOrientation: 'vertical',
       smoothWheel: true,
       wheelMultiplier: 1.0,
-      touchMultiplier: 1.2,
+      touchMultiplier: 1.0,
       infinite: false,
     });
 
