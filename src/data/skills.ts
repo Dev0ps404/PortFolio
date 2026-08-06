@@ -6,23 +6,23 @@ export const SKILLS_CATEGORIES_GRID: CategorizedSkills[] = [
     skills: ["Java", "JavaScript"]
   },
   {
-    category: "Frontend",
-    skills: ["HTML", "CSS", "React.js", "JavaScript (ESNext)", "Responsive UI Design"]
+    category: "Web Technologies",
+    skills: ["HTML", "CSS", "React.js", "Node.js"]
   },
   {
-    category: "Backend",
-    skills: ["Node.js", "Express.js", "REST APIs", "Socket.IO"]
+    category: "Database & Backend",
+    skills: ["MongoDB", "Express.js"]
   },
   {
-    category: "Database",
-    skills: ["MongoDB"]
-  },
-  {
-    category: "Tools",
+    category: "Tools & Platforms",
     skills: ["Git", "VS Code", "GitHub"]
   },
   {
-    category: "AI & ML",
+    category: "Core Concepts",
+    skills: ["Data Structures", "Problem Solving"]
+  },
+  {
+    category: "AI & Emerging Skills",
     skills: ["Prompt Engineering", "AI Integration"]
   }
 ];

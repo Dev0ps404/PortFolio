@@ -6,7 +6,7 @@ export const PERSONAL_INFO = {
   summaryParagraph1: "Full Stack Developer pursuing B.Tech in Computer Science and Engineering at GLA University with hands-on experience in building real-time, AI-driven, and scalable web applications. Proficient in React.js, Node.js, Express.js, MongoDB, and Socket.IO.",
   summaryParagraph2: "Gained practical industry experience as a Full Stack Developer Intern at Numeric Infosystem Pvt. Ltd., crafting end-to-end web architectures, implementing authentication, and engineering responsive UI dashboards focused on real-world utility.",
   location: "Mathura, Uttar Pradesh, India",
-  phone: "+91 9109810608",
+  phone: "+91-9109810608",
   email: "devanshaadhya@gmail.com",
   github: "https://github.com/Dev0ps404",
   linkedin: "https://www.linkedin.com/in/devansh-code",

@@ -25,17 +25,26 @@ export const ACHIEVEMENTS: Achievement[] = [
     issuer: "Practical Implementation",
     date: "2026",
     category: "Award",
-    badge: "5 Production Deployments",
+    badge: "Full-Stack Projects",
     description: "Built multiple full-stack projects focused on solving real-world problems and improving user experience."
   },
   {
     id: "open-source",
-    title: "Open-Source & Collaborative Engineering",
-    issuer: "GitHub Contributions",
+    title: "Open-Source Contributions",
+    issuer: "Collaborative Engineering",
     date: "2026",
     category: "Certification",
-    badge: "Active Explorer",
+    badge: "Open Source",
     description: "Actively exploring open-source contributions and collaborative development."
+  },
+  {
+    id: "skill-development",
+    title: "Continuous Skill Elevation",
+    issuer: "Hands-on Development",
+    date: "2026",
+    category: "Award",
+    badge: "Continuous Learning",
+    description: "Consistently improving development skills through hands-on projects and practical implementation."
   }
 ];
 

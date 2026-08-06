@@ -42,7 +42,7 @@ export interface EducationItem {
 }
 
 export interface CategorizedSkills {
-  category: 'Programming Languages' | 'Frontend' | 'Backend' | 'Database' | 'Cloud & DevOps' | 'AI & ML' | 'Tools';
+  category: 'Programming Languages' | 'Web Technologies' | 'Database & Backend' | 'Tools & Platforms' | 'Core Concepts' | 'AI & Emerging Skills' | 'Frontend' | 'Backend' | 'Database' | 'Cloud & DevOps' | 'AI & ML' | 'Tools' | string;
   skills: string[];
 }
 
