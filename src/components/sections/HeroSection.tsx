@@ -111,7 +111,7 @@ export const HeroSection: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="mt-6 text-slate-400 text-base md:text-lg font-normal leading-relaxed max-w-xl"
             >
-              Architecting high-performance digital products, 3D WebGL interfaces, and modern React 19 software systems with an Apple-level luxury aesthetic.
+              {PERSONAL_INFO.summaryParagraph1}
             </motion.p>
 
             {/* CTA Buttons */}

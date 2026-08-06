@@ -44,7 +44,7 @@ export const AboutSection: React.FC = () => {
               Behind the Code
             </h3>
             <p className="text-slate-300 leading-relaxed mb-6 font-normal">
-              Over the last 7+ years, I have architected web systems for fast-growing startups and Fortune 500 enterprises. My specialization lies in bridging the gap between high-level creative vision and low-level WebGL graphics programming.
+              Full Stack Developer pursuing B.Tech in Computer Science and Engineering at GLA University with hands-on experience in building real-time, AI-driven, and scalable web applications. Proficient in React.js, Node.js, Express.js, MongoDB, and Socket.IO.
             </p>
 
             {/* Interactive Bio Tabs */}
